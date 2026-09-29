@@ -29,7 +29,7 @@ switch (x) {
 ```
 
 ```py
-# ./python/m07_basic_control_flow.py
+# ./python/m07.ipynb
 
 x = 0
 
@@ -81,7 +81,7 @@ System.out.println("The digit sum is " + digitSum);
 ```
 
 ```py
-# ./python/m07_sum_of_all_digits.py
+# ./python/m07.ipynb
 
 n = int(input('Enter a number: '))
 
@@ -106,7 +106,7 @@ print("The digit sum is ", digit_sum)
 - We use an explicit integer division `//` in Python, but use a normal division `/` in Java
 
 ```py
-# unlike Java, a division will alwasy give you a float data type
+# unlike Java, a division will always give you a float data type
 assert 5 / 2 == 2.5
 
 # unless you want an explicit integer division
@@ -134,7 +134,7 @@ for (String name : names) {
 ```
 
 ```py
-# ./python/m07_iterating_elements_by_value.py
+# ./python/m07.ipynb
 
 names = ["Lisa", "John", "Susan", "Alex"]
 
@@ -170,7 +170,7 @@ for (int i = 5; i < 8; i++) {
 ```
 
 ```py
-# ./python/m07_iterating_elements_by_index.py
+# ./python/m07.ipynb
 
 numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
@@ -218,7 +218,7 @@ Examples like the one before are usually solved by slicing list-like collections
 This is also very useful for mathematical applications, e.g. when working with a lot of arrays and matrices.
 
 ```py
-# ./python/m07_sequence_slicing.py#L1-L5
+# ./python/m07.ipynb
 
 numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
@@ -245,14 +245,14 @@ The following variants are supported:
 
 ## Sequence Slicing 2/2: Examples
 
-<!-- embedme ./python/m07_sequence_slicing.py#L1-L1 -->
+<!-- embedme ./python/m07.ipynb#L1-L1 -->
 
 ```py
 numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 ```
 
 ```py [|3-4|6-7|9-10|]
-# ./python/m07_sequence_slicing.py#L7-L14
+# ./python/m07.ipynb#L7-L14
 
 numbers[1:]    # all except the 1st item    > [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 numbers[:3]    # the first three items      > [10, 11, 12]
@@ -269,7 +269,7 @@ numbers[1::2]  # every 2nd, but start at 2  > [11, 13, 15, 17, 19]
 This also works with strings because they are just a list of characters.
 
 ```py
-# ./python/m07_sequence_slicing.py#L17-L20
+# ./python/m07.ipynb#L17-L20
 
 name = "Hello World"
 name[1:-1]
@@ -288,7 +288,7 @@ name[1:-1]
 - Slice out a reversed copy of the elements with `a[::-1]`
 
 ```py [|5-6|8-9|11-12|]
-# ./python/m07_sequence_reversing.py
+# ./python/m07.ipynb
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -312,7 +312,7 @@ numbers[::-1]
 - Use the `reverse=True` [**keyword argument**](https://docs.python.org/3/glossary.html#term-argument) to reverse the sorting order
 
 ```py [|5-7|9-11|]
-# ./python/m07_sequence_sorting.py
+# ./python/m07.ipynb
 
 numbers = [1, -10, 20, 11, 19, 0, -5, -1000, 100, 7]
 
@@ -345,7 +345,7 @@ while (i < names.length) {
 ```
 
 ```py
-# ./python/m07_enumerating_over_elements.py
+# ./python/m07.ipynb
 
 names = ["Lisa", "John", "Susan", "Alex"]
 
@@ -388,7 +388,7 @@ for (double price : gross) {
 ```
 
 ```py
-# ./python/m07_price_tax.py#L1-L8
+# ./python/m07.ipynb
 
 prices = [12.3, 5.2, 8.7, 1.2, 8.0]
 gross = []
@@ -412,7 +412,7 @@ List comprehensions map each value in a list to a new value and thus create a ne
 `[x for x in sequence]`
 
 ```py
-# ./python/m07_price_tax.py#L11-L12
+# ./python/m07.ipynb#L11-L12
 
 prices = [12.3, 5.2, 8.7, 1.2, 8.0]
 gross = [price * 1.2 for price in prices if price > 8]

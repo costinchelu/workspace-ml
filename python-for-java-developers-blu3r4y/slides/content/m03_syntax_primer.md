@@ -23,7 +23,7 @@ System.out.println("The maximum value is " + maximum);
 ```
 
 ```py
-# ./python/m03_maximum_value.py
+# ./python/m03.ipynb
 
 numbers = [1, -10, 0, -5, -1000, 100, 7]
 

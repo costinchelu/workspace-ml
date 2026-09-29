@@ -19,7 +19,7 @@ Lists hold multiple elements in a specific order.
 Unlike arrays, they can change in size at any time.
 
 ```py [|3-5|8-9|11|13-14|16-17|]
-# ./python/m05_list_operations.py#L1-L15
+# ./python/m05.ipynb#L1-L15
 
 numbers = [1, 2, 3, 4, 5]
 names = ["Janine", "Ali", "Alice"]
@@ -53,7 +53,7 @@ del names[0]            # remove by index
 Learn about all list operations at [docs.python.org/3/tutorial/datastructures.html#more-on-lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
 
 ```py [|3-4|6-7|9-10|]
-# ./python/m05_list_operations.py#L18-L26
+# ./python/m05.ipynb#L18-L26
 
 "Alice" in names        # check for existence
 "Mario" not in names    # ... and non-existence
@@ -112,7 +112,7 @@ tuple(letters)
 **Destructuring** helps you to quickly retrieve elements from list-like types in Python.
 
 ```py [|3-6|9-14|17-22|]
-# ./python/m05_destructuring.py
+# ./python/m05.ipynb
 
 x, y = 1, 2
 print(x, y)
@@ -152,7 +152,7 @@ print(name, age)
 Dictionaries map keys to values.
 
 ```py [|3-10|13-15|17-19|21-22|]
-# ./python/m05_dict_operations.py
+# ./python/m05.ipynb
 
 grades = {
     "math": 2,
@@ -184,7 +184,7 @@ grades.values()            # get all the values as a list
 Sets hold multiple elements, without duplicates, but also without order.
 
 ```py [|3|5-6|8|10-12|]
-# ./python/m05_set_operations.py#L1-L10
+# ./python/m05.ipynb#L1-L10
 
 numbers = {1, 1, 2, 3, 5}  # notice how the '1' is only appended once after all
 
@@ -210,7 +210,7 @@ if 2 in numbers:
 You must iterate over them or convert the set to a list with `list(elements)`
 
 ```py
-# ./python/m05_set_operations.py#L12-L14
+# ./python/m05.ipynb#L12-L14
 
 # iterate over set elements
 for val in numbers:
@@ -226,7 +226,7 @@ for val in numbers:
 Sets are handy when you want to apply operations from set theory.
 
 ```py
-# ./python/m05_set_arithmetic.py
+# ./python/m05.ipynb
 
 a = {1, 2, 3, 4, 5}
 b = {4, 5, 6, 7, 8}

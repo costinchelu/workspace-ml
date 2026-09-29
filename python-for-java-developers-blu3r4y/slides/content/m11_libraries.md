@@ -31,7 +31,7 @@ python -m pip install <package-name>
 ### Compute and show a parabola with `numpy` and `matplotlib`
 
 ```py
-# ./python/m11_numpy_demo.py
+# ./python/m11.ipynb
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -54,7 +54,7 @@ plt.show()
 ### Read a tabular dataset with `pandas`
 
 ```py
-# ./python/m11_pandas_demo.py
+# ./python/m11.ipynb
 
 import pandas as pd
 

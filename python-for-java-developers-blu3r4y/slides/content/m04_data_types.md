@@ -62,7 +62,7 @@ input_bitmask = 0b1011_1001
 Integers in Python allow computations beyond usual integer limits without loss of precision.
 
 ```py
-# ./python/m04_arbitrary_precision_integers.py
+# ./python/m04.ipynb
 
 lightyear_to_meter = 9_460_730_472_580_800
 min_milky_way_diameter = 170_000 * lightyear_to_meter
@@ -84,7 +84,7 @@ print("Adding one meter on that, we are at", min_milky_way_diameter_plus_one, "m
 Find them all at [docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
 
 ```py [|6-8|10-12|14-17|19-20|]
-# ./python/m04_mathematical_expressions.py
+# ./python/m04.ipynb
 
 x = 10.5
 y = -3
@@ -114,7 +114,7 @@ print("x ** 3 =", x ** 3)                # exponentiation (alternative syntax)
 Find them all at [docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
 
 ```py
-# ./python/m04_mathematical_functions.py
+# ./python/m04.ipynb
 
 # we use function from this built-in package
 import math
@@ -161,7 +161,7 @@ System.out.println("The number is " + num);
 ```
 
 ```py
-# ./python/m04_string_conversion.py
+# ./python/m04.ipynb
 
 num = 42
 print("The number is " + str(num))
@@ -198,7 +198,7 @@ String result = String.join(" ", a, b, c, d);
 ```
 
 ```py
-# ./python/m04_string_concatenation.py#L1-L7
+# ./python/m04.ipynb#L1-L7
 
 a = "How"
 b = "to"
@@ -218,7 +218,7 @@ result = " ".join([a, b, c, d])
 ## Boolean Types
 
 ```py
-# ./python/m04_boolean_expressions.py
+# ./python/m04.ipynb
 
 x = True
 y = False
@@ -237,7 +237,7 @@ You can also perform binary computations with bitwise operators.
 Find them all at [docs.python.org/3/library/stdtypes.html#bitwise-operations-on-integer-types](https://docs.python.org/3/library/stdtypes.html#bitwise-operations-on-integer-types)
 
 ```py
-# ./python/m04_bitwise_expressions.py
+# ./python/m04.ipynb
 
 port    = 0b1011_1011
 bitmask = 0b0010_0000

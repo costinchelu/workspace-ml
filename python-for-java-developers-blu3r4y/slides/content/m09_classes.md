@@ -52,7 +52,7 @@ class PassengersProgram {
 ```
 
 ```py [|3|4-6|8-9|11-16|20-24|19|]
-# ./python/m09_passengers_program.py
+# ./python/m09.ipynb
 
 class Passenger:
     def __init__(self, first_name, last_name):
@@ -175,7 +175,7 @@ class ShapesProgram {
 ```
 
 ```py [|3-5|8-13|16-21|24-26|]
-# ./python/m09_shapes_program.py
+# ./python/m09.ipynb
 
 class Shape:
     def area(self):
@@ -224,7 +224,7 @@ Since there is NO type-checking at compile-time, we may also solely rely on [**d
 An `AttributeError` is thrown at runtime, if the method you are calling wouldn't exist. \*
 
 ```py [|3-16|19-21|21|]
-# ./python/m09_shapes_duck_typing.py
+# ./python/m09.ipynb
 
 class Circle:
     def __init__(self, radius):

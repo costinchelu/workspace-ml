@@ -9,7 +9,7 @@
 You can read input from the command line with `input()`
 
 ```py
-# ./python/m06_input.py#L1-L2
+# ./python/m06.ipynby#L1-L2
 
 name = input("Please enter your name: ")
 print("Your name is", name)
@@ -20,7 +20,7 @@ print("Your name is", name)
 💡 **Don't forget data type conversions!**
 
 ```py
-# ./python/m06_input.py#L4-L11
+# ./python/m06.ipynby#L4-L11
 
 # this function will always give you a string
 number = input("Please enter a number: ")
@@ -41,7 +41,7 @@ print(as_int, as_float)
 You output something to the command line with `print()`
 
 ```py
-# ./python/m06_output.py#L1-L14
+# ./python/m06.ipynby#L1-L14
 
 pi = 3.141
 
@@ -62,7 +62,7 @@ print("line breaks")
 Among many alternatives, [**format strings**](https://docs.python.org/3/library/string.html#string-formatting) are the recommended way to format output.
 
 ```py
-# ./python/m06_output.py#L17-L19
+# ./python/m06.ipynby#L17-L19
 
 print(f"The value of pi is {pi} and the value of tau is {2 * pi}")
 
@@ -76,7 +76,7 @@ print(f"The value of pi is {pi} and the value of tau is {2 * pi}")
 Look them up when you need it at [gto76.github.io/python-cheatsheet/#format](https://gto76.github.io/python-cheatsheet/#format)
 
 ```py
-# ./python/m06_number_formatting.py
+# ./python/m06.ipynby#L22-L34
 
 pi = 3.14159265359
 print(pi)
@@ -106,7 +106,7 @@ Among many, here is one way to read and write a file in Python.
 Learn more at [docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
 
 ```py [|5-7|9-11|]
-# ./python/m06_file_io.py#L3-L11
+# ./python/m06.ipynby#L3-L11
 
 filename = "m06_file_io.txt"
 

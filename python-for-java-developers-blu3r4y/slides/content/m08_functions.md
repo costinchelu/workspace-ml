@@ -27,7 +27,7 @@ public static void main(String[] args) {
 ```
 
 ```py
-# ./python/m08_rectangle_functions.py#L1-L13
+# ./python/m08.ipynb#L1-L13
 
 def area(a, b):
     return a * b
@@ -87,7 +87,7 @@ public static void main(String[] args) {
 ```
 
 ```py [|3-8|11-17|]
-# ./python/m08_pass_by_object_reference.py
+# ./python/m08.ipynb
 
 def replace(numbers):
     numbers = [42, 43, 44]
@@ -132,7 +132,7 @@ When your argument is an object, the reference to that object is passed.
 You can specify argument names explicitly - and even change their order.
 
 ```py
-# ./python/m08_rectangle_functions.py#L17-L18
+# ./python/m08.ipynb#L17-L18
 
 area(a=2, b=5)
 area(b=5, a=2)
@@ -144,7 +144,7 @@ area(b=5, a=2)
 You can specify default values for arguments.
 
 ```py
-# ./python/m08_function_differences.py#L1-L12
+# ./python/m08.ipynb#L1-L12
 
 def function_with_default_args(x, y, name="Unknown User", factor=1.2):
     result = x * y * factor
@@ -169,7 +169,7 @@ function_with_default_args(1, 2, factor=10)
 You can return multiple results with tuples and destructuring.
 
 ```py
-# ./python/m08_function_differences.py#L15-L30
+# ./python/m08.ipynb#L15-L30
 
 def function_with_two_return_values(radius):
     pi = 3.14159
@@ -199,4 +199,4 @@ print("area", a)
   _("functions are first-class-citizens in Python")_
 - You can use **[`*args` and `**kwargs`](https://docs.python.org/3/glossary.html#term-parameter)** to work with almost arbitrary input parameters, which you already did use in the `print()` function for example
 
-Learn more about funtions at [docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions).
+Learn more about functions at [docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions](https://docs.python.org/3/tutorial/controlflow.html#more-on-defining-functions).
