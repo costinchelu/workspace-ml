@@ -1,0 +1,6 @@
+jupyter
+jupyterlab
+requests
+numpy
+pandas
+matplotlib

@@ -1,0 +1,102 @@
+/* make content smaller */
+:root {
+  --r-main-font-size: 20px;
+  --r-heading-margin: 10px 0 20px 0;
+}
+
+/* do not center text */
+.reveal .slides {
+  text-align: left;
+}
+
+/* more spacing between list items */
+.reveal ul li {
+  margin-bottom: 5px;
+}
+
+/* headline style for interactive slides */
+.reveal .headline {
+  background-color: #2196f3;
+  color: white !important;
+  padding: 0 5px;
+  font-weight: bold !important;
+}
+
+/* do not bold first letter emoji */
+.reveal .headline::first-letter {
+  font-weight: normal !important;
+}
+
+/* footnote style with small */
+.reveal small {
+  margin-top: 15px;
+}
+
+/* image style */
+.reveal img {
+  display: block;
+  max-width: 50%;
+  margin-top: 0.5em;
+}
+
+.reveal img.center {
+  margin: 0.5em auto 0 auto;
+}
+
+/* softer box shadow and less line height for code */
+.reveal pre {
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+  line-height: 1.05em;
+}
+
+/* color inline code only */
+.reveal p:not(.snippet) code,
+.reveal li code {
+  padding: 2px 4px;
+  color: #1f1f1f;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* code snippet link style */
+.reveal .snippet {
+  padding: 10px;
+  color: #1f1f1f;
+  font-weight: bold;
+  background-color: #f3e5f5;
+  border-radius: 4px;
+}
+
+/* side-by-side view with one or more columns */
+.reveal .sidebyside {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+/* smaller font for code */
+.reveal pre {
+  font-size: 75%;
+}
+.reveal .sidebyside pre {
+  font-size: 65%;
+}
+
+/* nicer scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a4a4a4;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #757575;
+}
