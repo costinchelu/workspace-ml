@@ -299,6 +299,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# R
+.Rhistory
+
 # MacOS
 .DS_Store
 
