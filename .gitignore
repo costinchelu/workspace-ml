@@ -301,3 +301,6 @@ dist
 
 # MacOS
 .DS_Store
+
+# books
+/books

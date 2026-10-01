@@ -1,0 +1,43 @@
+name: ml-from-a-to-z-udemy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - nltk
+  - xgboost
+
+  - r-base
+  - r-caret
+  - r-ggplot2
+  - r-catools
+  - r-randomforest
+  - r-kernlab
+  - r-e1071
+  - r-rpart
+  - r-class
+  - r-cluster
+  - r-mass
+  - r-tm
+  - r-snowballc
+  - r-xgboost
+  - openjdk  # Required by the H2O R lesson.
+
+  # Installed from PyPI because these packages are not reliably distributed
+  # for every Conda platform.
+  - pip:
+      - apyori
+      - tensorflow
+
+# `arules`, `ElemStatLearn`, and `h2o` are installed by install-r-extras.R.
+# They do not have compatible Conda packages on every platform.
+
+# Recreate: conda env create -f environment.yml
+# Update:   conda env update -f environment.yml --prune
+# Optional R extras: Rscript install-r-extras.R
