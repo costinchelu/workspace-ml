@@ -1,4 +1,4 @@
-# Simple Linear Regression
+# Simple Linear Summary on regression
 
 # Importing the dataset
 dataset <- read.csv('../data/Salary_Data.csv')
@@ -15,7 +15,7 @@ test_set = subset(dataset, split == FALSE)
 # training_set = scale(training_set)
 # test_set = scale(test_set)
 
-# Fitting Simple Linear Regression to the Training set
+# Fitting Simple Linear Summary on regression to the Training set
 regressor = lm(formula = Salary ~ YearsExperience,
                data = training_set)
 
