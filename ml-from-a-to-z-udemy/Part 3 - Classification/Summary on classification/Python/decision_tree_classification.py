@@ -1,4 +1,4 @@
-# Naive Bayes
+# Decision Tree Classification
 
 # Importing the libraries
 import numpy as np
@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('ENTER_THE_NAME_OF_YOUR_DATASET_HERE.csv')
+dataset = pd.read_csv('../data/Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
@@ -20,9 +20,9 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# Training the Naive Bayes model on the Training set
-from sklearn.naive_bayes import GaussianNB
-classifier = GaussianNB()
+# Training the Decision Tree Classification model on the Training set
+from sklearn.tree import DecisionTreeClassifier
+classifier = DecisionTreeClassifier(criterion = 'entropy', random_state = 0)
 classifier.fit(X_train, y_train)
 
 # Making the Confusion Matrix
