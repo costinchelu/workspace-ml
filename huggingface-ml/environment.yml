@@ -1,0 +1,19 @@
+name: huggingface-ml
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - ipykernel
+  - pip
+  - pip:
+    - nbformat>=5.1.3
+    - PyYAML>=5.4.1
+    - black>=24.1.1
+    - transformers>=4.30.0

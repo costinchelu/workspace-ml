@@ -1,0 +1,29 @@
+# Core Scientific & Data Analysis
+numpy
+scipy
+pandas
+
+# Plotting & Visualization
+matplotlib
+seaborn
+graphviz
+
+# Machine Learning & Deep Learning
+scikit-learn
+tensorflow
+torch
+torchvision
+
+# Specialized ML Packages used in the course
+gym
+dowhy
+diffprivlib
+gplearn
+librosa
+Pillow
+
+# Jupyter & Notebook Environment
+ipython
+ipykernel
+jupyter
+notebook
